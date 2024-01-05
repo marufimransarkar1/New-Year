@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: relative;
+    padding: 150px 130px 150px 685px;
+    text-align: right;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-title{
+    color: #FFF;
+
+text-align: right;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.header-pg{
+    color: #FFF;
+
+text-align: right;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding: 25px 0;
+}
+.button1{
+    color: #005FAC;
+
+text-align: right;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 15px 20px;
+border: none;
+}
+main{
+    padding: 150px;
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.main1 img{
+    width: 400px;
+}
+.section-un-main2{
+    width: 416px;
+}
+.main-title{
+    color: var(--Dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 25px 0;
+}
+.main-pg{
+    color: var(--Dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 24px;
+}
+.main1 ul li{
+    color: var(--Dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+list-style: none;
+}
+.main1 ul li::before {
+    content: '\f00c'; /* Unicode for the checkmark icon */
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 8px; 
+}
+.main2 .main-title{
+    text-align: center;
+}
+.main2 .plans{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 130px;
+}
+.plan-box{
+    padding: 10px;
+}
+.plan-h1{
+    color: var(--Dark-01, #151414);
+text-align: center;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.plan-p{
+    color: var(--Dark-03, #737272);
+text-align: center;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.mp-box{
+    background-image: url('../images/watch.png');
+    
+}
+.mp{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 50px 665px 10px 65px;
+}
+.button1{
+    color: #005FAC;
+
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 10px 20px;
+margin: 10px 0 90px 65px;
+}
+footer{
+    padding: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    width: 500px;
+}
+.main-title2{
+    color: #F8F8F8;
+
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.left-pg{
+    color: #FFF;
+
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding: 10px 0;
+}
+.icons ul{
+    display: flex;
+    margin: -10px;
+}
+.icons li{
+    list-style: none;
+    margin: 10px;
+}
+.subscribe{
+    color: #FFF;
+
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 20px 0;
+}
+
+input{
+    display: block;
+font-family: Work Sans;
+font-size: 16px;
+padding: 10px ;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: none;
+margin-bottom: 10px;
+}
+input[type="submit"]{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    border-radius: 2px;
+background: #005FAC;
+margin: 20px 0;
+}
